@@ -205,7 +205,7 @@ export default function Home() {
         {error && <p className="text-2xl text-red-700">{error}</p>}
         <div className="mt-5">
           {currentBankName === "" && isBankerOwner ?
-            <p>"Setup the name of your bank." </p> :
+            <p>Setup the name of your bank. </p> :
             <p className="text-3xl font-bold">{currentBankName}</p>
           }
         </div>
